@@ -86,7 +86,7 @@ services:
     environment: 
       - PUID=1000
       - PGID=1000
-      - URL=yourdomain.com
+      - URL=${OWNCLOUD_DOMAIN}
       - SUBDOMAINS=www,
       - VALIDATION=http
       - STAGING=false #optional
